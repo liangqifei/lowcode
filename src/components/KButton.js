@@ -13,6 +13,6 @@ import { Button } from "antd";
 // target	相当于 a 链接的 target 属性，href 存在时生效	string	-
 // type	设置按钮类型	primary | ghost | dashed | link | text | default	default
 
-export default ({children}) => {
-  return <Button>111111Button</Button>
+export default (props) => {
+  return <Button {...props}>111111Button</Button>;
 };

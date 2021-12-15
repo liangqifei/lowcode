@@ -23,10 +23,13 @@
         height:100%;
         overflow: auto;
         background: #fff;
+     
+
         &-left{
             border-right:solid 1px #eee;
         }
         &-center{
+            padding:10px;
             flex: 1;
         }
         &-right{

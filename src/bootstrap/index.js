@@ -8,25 +8,25 @@ import componentConfig from './componentConfig'
 import KButton from '../components/KButton'
 import KSwitch from '../components/KSwitch'
 componentConfig.register({
-    preview:()=>{
-        return <KButton></KButton>
-    },
-    key:'KButton',
-    render:(props)=>{
-        return <KButton {...props}></KButton>
-    },
-    text:'KButton组件'
-})
+  preview: (props) => {
+    return <KButton {...props}></KButton>;
+  },
+  key: "KButton",
+  render: (props) => {
+    return <KButton {...props}></KButton>;
+  },
+  text: "KButton组件",
+});
 componentConfig.register({
-    preview:()=>{
-        return <KSwitch></KSwitch>
-    },
-    key:'KSwitch',
-    render:(props)=>{
-        return <KSwitch {...props}></KSwitch>
-    },
-    text:'KSwitch'
-})
+  preview: (props) => {
+    return <KSwitch {...props}></KSwitch>;
+  },
+  key: "KSwitch",
+  render: (props) => {
+    return <KSwitch {...props}></KSwitch>;
+  },
+  text: "KSwitch22222",
+});
 componentConfig.register({
     preview:()=>{
         return <KButton></KButton>
